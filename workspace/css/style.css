@@ -1,0 +1,155 @@
+body{
+    background: url(../img/fundo.jpeg);
+    background-repeat:no-repeat;
+}
+
+#navIndex {
+    box-shadow: 1px 2px 18px #888888;
+    background-color: #222;
+    color: lightgreen;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: lightgreen;
+}
+
+.navbar-light .navbar-nav .nav-link:checked {
+    color: lightgreen;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: lightgreen;
+}
+
+.register input {
+    padding: 8px;
+    margin-bottom: 30px;
+    width: 99%;
+    box-sizing: border-box;
+    box-shadow: none;
+    outline: none;
+    color: white;
+    border: none;
+    background-color: #222;
+    border-bottom: 2px solid #999;
+}
+
+.register form div {
+    position: relative;
+}
+
+.register form div label {
+    position: absolute;
+    top: 3px;
+    pointer-events: none;
+    left: 0;
+    transition: .5s;
+}
+
+.register input:focus~label,
+.register input:valid~label {
+    left: 0;
+    top: -20px;
+    color: lightgreen;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.register input:focus,
+.register input:valid {
+    border-bottom: 2px solid lightgreen;
+}
+
+.LoginErro input {
+    padding: 8px;
+    margin-bottom: 30px;
+    width: 99%;
+    box-sizing: border-box;
+    box-shadow: none;
+    outline: none;
+    color: #ff4242;
+    border: none;
+    background-color: #222;
+    border-bottom: 2px solid #999;
+}
+
+.LoginErro form div {
+    position: relative;
+}
+
+.LoginErro form div label {
+    position: absolute;
+    top: 3px;
+    pointer-events: none;
+    left: 0;
+    transition: .5s;
+}
+
+.LoginErro input:focus~label,
+.LoginErro input:valid~label {
+    left: 0;
+    top: -20px;
+    color: #ff4242;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.LoginErro input:focus,
+.LoginErro input:valid {
+    border-bottom: 2px solid #ff4242;
+}
+
+.close {
+    color: white;
+}
+
+.modal-body,
+.modal-header,
+.modal-footer {
+    color: white;
+    background-color: #222;
+}
+
+#btnEnviar{
+    background-color: #222;
+    border: 1px solid lightgreen;
+    color: lightgreen;
+}
+
+#canto {
+    margin-left: 80%;
+}
+
+@media screen and (max-width: 992px) {
+    #canto {
+        margin-left: 0%;
+    }
+}
+
+#logo {
+    margin-left: 8%;
+}
+
+.modal-title {
+    position: absolute;
+    color: lightgreen;
+    top: 3%;
+    left: 43%;
+}
+
+#titulo {
+    position: absolute;
+    color: lightgreen;
+    top: 3%;
+    left: 40%;
+}
+
+#divSucesso {
+    color: lightgreen;
+    font-size: 120%;
+}
+
+#divErro {
+    color: #ff4242;
+    font-size: 120%;
+}
